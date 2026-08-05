@@ -1,0 +1,16 @@
+{
+  "lane": "Refresh / Content Opportunity Scoring",
+  "rows_scored": 30000,
+  "eligible_queue_rows": 7234,
+  "score_inputs": [
+    "days_since_last_update",
+    "impressions_90d"
+  ],
+  "thresholds": {
+    "min_days_since_last_update": 90,
+    "min_impressions_90d": 300,
+    "max_days_weighted": 180
+  },
+  "diagnostic_only_declining_proxy_base_rate": 0.5421,
+  "diagnostic_only_precision_at_50": 0.56
+}

@@ -1,0 +1,12 @@
+{
+  "lane": "Refresh / Content Opportunity Scoring",
+  "diagnostic_outcome": "trend_direction == down (not a feature)",
+  "verdicts": {
+    "staleness": "MIXED",
+    "visibility": "MIXED",
+    "position": "CONFIRMED, directionally",
+    "flag_linked_staleness_on_largest_content_type": "MIXED"
+  },
+  "sample_size_floor": 50,
+  "careful_claim": "Associations in this snapshot support review prioritization, not causal claims."
+}
